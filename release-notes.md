@@ -21,11 +21,12 @@ The first public downloadable demo release of **Your Happy Place** by **Kadabra 
 
 ### Linux
 
-1. Download `YourHappyPlace-Linux.zip`.
-2. Extract the complete ZIP.
+1. Download [YourHappyPlace-Linux.tar.gz](https://github.com/redgargoyle/YourHappyPlace-Releases/releases/download/v0.1.0/YourHappyPlace-Linux.tar.gz).
+2. Extract the entire archive into your Home folder.
 3. Open the extracted `YourHappyPlace_Linux_Vulkan_IL2CPP` directory.
-4. If necessary, run `chmod +x YourHappyPlace.x86_64`.
-5. Run `./YourHappyPlace.x86_64`.
+4. Double-click `YourHappyPlace.x86_64` and choose Run if prompted. No permission repair is needed.
+
+A `Play Your Happy Place.sh` launcher is also included. Keep all files together.
 
 ### macOS
 
@@ -43,3 +44,13 @@ These demo builds are unsigned. Windows SmartScreen or macOS Gatekeeper may disp
 ## File integrity
 
 `SHA256SUMS.txt` is included with this release so every downloaded archive can be verified using SHA-256.
+
+## Package maintenance
+
+The Windows and Linux packages were refreshed on September 29, 2026 to remove build backup folders and diagnostic files that are not needed to play. All retained game and runtime files are byte-for-byte identical to the original v0.1.0 builds. The download filenames and launch instructions are unchanged. Download the refreshed `SHA256SUMS.txt` to verify the current packages.
+
+## Linux permission repair — September 30, 2026
+
+Use the new complete `.tar.gz` download for Linux. It preserves executable permissions and includes a launcher and short instructions. Every original game file is byte-for-byte identical to the September 29 v0.1.0 package. The previous ZIP remains available for compatibility, but the tarball is recommended.
+
+The new tarball checksum is in `YourHappyPlace-Linux.tar.gz.sha256`. Its packaging verification report is included separately; Windows and macOS downloads are unchanged.
